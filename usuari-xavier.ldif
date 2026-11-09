@@ -1,0 +1,13 @@
+dn: uid=xavier,ou=usuaris,dc=lafita,dc=local
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: xavier
+cn: Xavier
+sn: Xavier
+uidNumber: 10006
+gidNumber: 10006
+homeDirectory: /home/xavier
+loginShell: /bin/bash
+userPassword: {SSHA}HASH
