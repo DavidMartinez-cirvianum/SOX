@@ -1,0 +1,57 @@
+dn: cn=alumne1,ou=grups,dc=lafita,dc=local
+objectClass: posixGroup
+cn: alumne1
+gidNumber: 10007
+memberUid: alumne1
+
+dn: uid=alumne1,ou=usuaris,dc=lafita,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: alumne1
+cn: Alumne Un
+sn: Un
+uidNumber: 10007
+gidNumber: 10007
+homeDirectory: /home/alumne1
+loginShell: /bin/bash
+userPassword: {SSHA}mQvc1vfP6reL5RLCK+XV2W8uQKUUA0/K
+
+dn: cn=alumne2,ou=grups,dc=lafita,dc=local
+objectClass: posixGroup
+cn: alumne2
+gidNumber: 10008
+memberUid: alumne2
+
+dn: uid=alumne2,ou=usuaris,dc=lafita,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: alumne2
+cn: Alumne Dos
+sn: Dos
+uidNumber: 10008
+gidNumber: 10008
+homeDirectory: /home/alumne2
+loginShell: /bin/bash
+userPassword: {SSHA}mQvc1vfP6reL5RLCK+XV2W8uQKUUA0/K
+
+dn: cn=professor1,ou=grups,dc=lafita,dc=local
+objectClass: posixGroup
+cn: professor1
+gidNumber: 10009
+memberUid: professor1
+
+dn: uid=professor1,ou=usuaris,dc=lafita,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: professor1
+cn: Professor Un
+sn: Un
+uidNumber: 10009
+gidNumber: 10009
+homeDirectory: /home/professor1
+loginShell: /bin/bash
+userPassword: {SSHA}mQvc1vfP6reL5RLCK+XV2W8uQKUUA0/K
+
